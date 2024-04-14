@@ -1,0 +1,23 @@
+table(tr) :: <<
+\<table\>
+    <tr;separetor='\n'> 
+\<table\>
+>>
+
+row(field) ::= <<
+\<tr\>
+    <field; separetor='\n'>
+\<tr\>
+>>
+
+header(text) ::= <<
+\<th\>
+text; separetor=','
+\</th\>
+>>
+
+data(text)  ::= <<
+\<td\>
+text; separetor=','
+\</td\>
+>>
